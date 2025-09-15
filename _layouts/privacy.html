@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.effective_date or page.updated_at %}
+      <p class="meta">
+        {% if page.effective_date %}시행일: {{ page.effective_date }}{% endif %}
+        {% if page.effective_date and page.updated_at %} / {% endif %}
+        {% if page.updated_at %}최종개정: {{ page.updated_at }}{% endif %}
+      </p>
+      {% endif %}
+      <hr>
+    </header>
+
+    <article class="content">
+      {{ content }}
+    </article>
+
+    <hr>
+    <footer>
+      <small>ⓒ {{ site.time | date: "%Y" }} username. All rights reserved.</small>
+    </footer>
+  </main>
+</body>
+</html>
