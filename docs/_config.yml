@@ -1,0 +1,8 @@
+title: Privacy Policies
+# 프로젝트 페이지일 때 반드시 baseurl 지정
+baseurl: "/privacy"     # ← 실제 repo 이름으로
+url: "https://justkeepgoing-dev.github.io"
+theme: null               # 기본 테마 끔(직접 레이아웃 사용)
+markdown: kramdown
+kramdown:
+  input: GFM
