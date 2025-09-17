@@ -1,3 +1,10 @@
+---
+layout: privacy
+title: "[raceballs] Privacy Policy"
+effective_date: "2025-09-17"
+updated_at: "2025-09-17"
+---
+
 **Privacy Policy**
 
 This privacy policy applies to the RaceBalls app (hereby referred to as "Application") for mobile devices that was created by JustKeepGoing (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
